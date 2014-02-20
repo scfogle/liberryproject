@@ -3959,7 +3959,7 @@ input[type="button"].btn-block {
   .navbar-default .navbar-form {
     border-color: black; }
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: black;
+    background-color: whitesmoke;
     color: #555555; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4605,6 +4605,27 @@ body {
  
  }
  
+ .pbody { font-size: 12px;}
+ 
+ .peventheader { 
+	 
+	 font-size: 14px;
+	 font-weight: bold;
+ }
+ .peventdes { font-size: 10px; }
+ 
+ .eventimg {
+	 float: left;
+	 display: block;
+	 padding: 4px;
+	   background-color: white;
+	     margin-right: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  
+ }
 
 
 .panel {
